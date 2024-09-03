@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 254, 223);
+}
+
+body {
+    text-align: center;
+    max-width: 1440px;
+    /*background: #fff991e0;*/
+    background: #ffffffe0;
+}
+
+h1 {
+    color: rgb(245, 245, 245);
+    font-size: 25px;
+    background: gray;
+    margin: 0;
+}
+
+h2 {
+    max-height: 30px;
+    background: inherit;
+    color: black;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 15px;
+}
+
+h3 {
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: inherit;
+}
+
+.up {
+    .up {
+        height: 70px; /* Aumentar a altura do container para dar mais espaço ao título */
+        background-color: gray;
+        padding-top: 10px; /* Adicionar padding para espaçar o título de cima */
+    }
+}
+
+.container-plus {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens no eixo horizontal */
+    align-items: flex-start; /* Alinha os itens no eixo vertical */
+    max-width: 1500px;
+    min-height: 280px;
+    padding: 20px;
+    background-color: transparent; /* Faz o fundo do container-plus transparente */
+}
+
+.content {
+    flex: 2; /* Tamanho do conteúdo */
+    margin-right: 20px; /* Espaço entre o conteúdo e a imagem */
+    min-height: 200px;
+}
+
+.img {
+    flex: 1; /* Tamanho da imagem */
+    text-align: center;
+    background: inherit;
+}
+
+.img img {
+    max-width: 100%; /* A imagem não excederá o tamanho do seu contêiner */
+    height: auto;
+    background: inherit;
+    height: 237px;
+    width: 330px;
+    margin-top: -20px;
+}
+
+
+.img p {
+    font-size: 14px;
+    margin-top: 10px;
+    background: inherit;
+}
+
+.button-container {
+    margin-top: 30px;
+    max-height: 40px;
+    background-color: inherit;
+    max-width: 1250px;
+    justify-content: center;
+    display: flex;
+}
+
+.button {
+    max-height: 40px;
+    max-width: 500px;
+    background-color: inherit;
+}
+
+.tap-button {
+    background-color: rgb(220, 176, 255);
+    margin-right: 5px;
+    margin-left: 5px;
+    min-width: 100px;
+    min-height: 35px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 32px;
+    margin-top: 395px;
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+h4 {
+    margin-top: 5px;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+h5 {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 15px;
+}
