@@ -15,7 +15,6 @@ h1 {
     color: rgb(245, 245, 245);
     font-size: 25px;
     background: gray;
-    margin: 0;
 }
 
 h2 {
@@ -34,10 +33,10 @@ h3 {
 }
 
 .up {
+    margin-top: -17px;
     min-width: 500px;
     height: 30px; /* Aumentar a altura do container para dar mais espaço ao título */
     background-color: gray;
-    padding-top: 10px; /* Adicionar padding para espaçar o título de cima */
 }
 
 .container-plus {
@@ -112,7 +111,7 @@ h3 {
 
 .footer {
     height: 32px;
-    margin-top: 352px;
+    margin-top: 284px;
     background-color: gray;
     border: 1px solid gray;
 }
