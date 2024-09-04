@@ -1,11 +1,10 @@
 * {
-    margin: 0;
     padding: 0;
-    background-color: rgb(255, 254, 223);
 }
 
 body {
-    min-height: 800px;
+    margin: 0;
+    min-height: 770px;
     min-width: 500px;
     text-align: center;
     max-width: 1440px;/*background: #fff991e0;*/
@@ -29,7 +28,7 @@ h2 {
 
 h3 {
     font-weight: normal;
-    margin-top: 20px;
+    margin-top: 115px;
     font-size: 15px;
     background-color: inherit;
 }
@@ -54,7 +53,14 @@ h3 {
 .content {
     flex: 2; /* Tamanho do conteúdo */
     margin-right: 20px; /* Espaço entre o conteúdo e a imagem */
-    min-height: 300px;
+    min-height: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 252, 172);
+}
+
+.content p {
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .img {
@@ -69,7 +75,6 @@ h3 {
     background: inherit;
     min-width: 200px;
     min-height: 150px;
-    height: 237px;
 }
 
 
@@ -89,7 +94,8 @@ h3 {
 }
 
 .button {
-    height: 200px;
+    min-height: 55px;
+    max-height: 200px;
     max-width: 500px;
     background-color: inherit;
 }
@@ -106,9 +112,15 @@ h3 {
 
 .footer {
     height: 32px;
-    margin-top: 395px;
+    margin-top: 352px;
     background-color: gray;
     border: 1px solid gray;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        margin-top: 525px;
+    }
 }
 
 h4 {
@@ -120,6 +132,9 @@ h4 {
 
 h5 {
     font-weight: bold;
-    margin-top: 150px;
+    margin-top: 60px;
     font-size: 15px;
+    unicode-bidi: isolate;
+    text-align: center;
+    border-radius: 25px;
 }
