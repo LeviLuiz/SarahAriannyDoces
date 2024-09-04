@@ -18,6 +18,7 @@ h1 {
 }
 
 h2 {
+    margin: 0;
     max-height: 30px;
     background: inherit;
     color: black;
@@ -58,6 +59,7 @@ h3 {
 }
 
 .content p {
+    margin-top: -20px;
     font-weight: bold;
     font-size: 15px;
 }
@@ -111,7 +113,7 @@ h3 {
 
 .footer {
     height: 32px;
-    margin-top: 284px;
+    margin-top: 325px;
     background-color: gray;
     border: 1px solid gray;
 }
