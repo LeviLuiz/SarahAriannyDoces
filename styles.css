@@ -31,6 +31,7 @@ h3 {
     margin-top: 115px;
     font-size: 15px;
     background-color: inherit;
+    margin-bottom: 0;
 }
 
 .up {
@@ -52,7 +53,6 @@ h3 {
 
 .content {
     flex: 2; /* Tamanho do conteúdo */
-    margin-right: 20px; /* Espaço entre o conteúdo e a imagem */
     min-height: 200px;
     border-radius: 25px;
     background-color: rgb(255, 252, 172);
@@ -114,8 +114,16 @@ h3 {
 .footer {
     height: 32px;
     margin-top: 325px;
-    background-color: gray;
+    background-color: gray; 
     border: 1px solid gray;
+}
+
+.heart {
+    color: red;
+}
+
+.parenteses {
+    color: gray;
 }
 
 @media (max-width: 600px) {
@@ -125,10 +133,13 @@ h3 {
 }
 
 h4 {
+    justify-content: center;
+    display: flex;
     margin-top: 5px;
     font-weight: normal;
     text-decoration: none;
     background-color: inherit;
+    color: white;
 }
 
 h5 {
