@@ -1,0 +1,18 @@
+{
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground1": "#FF5733",
+        "editorIndentGuide.activeBackground2": "#33FF57",
+        "editorIndentGuide.activeBackground3": "#3357FF",
+        "editorIndentGuide.activeBackground4": "#FF33A8",
+        "editorIndentGuide.activeBackground5": "#FFC300"
+    },
+    "indentRainbow.colors": [
+        "rgba(255, 87, 51, 0.1)",    // Primeira cor com transparência leve
+        "rgba(51, 255, 87, 0.1)",    // Segunda cor
+        "rgba(51, 87, 255, 0.1)",    // Terceira cor
+        "rgba(255, 51, 168, 0.1)",   // Quarta cor
+        "rgba(255, 195, 0, 0.1)"     // Quinta cor
+    ],
+    "indentRainbow.errorColor": "rgba(255,0,0,0.15)",  // Cor de erro mais suave
+    "indentRainbow.showError": true
+}
