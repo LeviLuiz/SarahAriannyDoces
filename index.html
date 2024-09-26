@@ -11,9 +11,9 @@
 
 <body>
 
-    <div class="up">
+    <header>
         <h1>Nosso Site</h1>
-    </div>
+    </header>
 
     <div class="container-plus">
         <div class="content">
@@ -23,23 +23,34 @@
 
             <div class="button-container">
                 <div class="button">
-                    <button class="tap-button" onclick="openTab('Aba1')">Preços</button>
-                    <button class="tap-button" onclick="openTab('Aba2')">Gosto</button>
+                    <button class="tap-button" onclick="openTab('Aba1')">Procurar</button>
+                    <button class="tap-button" onclick="openTab('Aba2')">Produtos</button>
                     <button class="tap-button" onclick="openTab('Aba3')">Sabor</button>
                 </div>
             </div>
 
             <div class="in-container">
                 <div id="Aba1" class="tab-content" style="display: block;">
-                    <h3>
-                        Doces com ótimos preços
-                    </h3>
+
+                    <input type="text" id="busca">
+
+                    <input type="button" value="Buscar" id="buscar" onclick="buscar()"><br><br>
+
+                    <select>
+                        <option value="0" id="1">Escreva um Produto</option>
+                        <option value="1" id="2"></option>
+                        <option value="2" id="3"></option>
+                        <option value="3" id="4"></option>
+                    </select>
                 </div>
 
                 <div id="Aba2" class="tab-content" style="display: none;">
-                    <h3>
-                        Compre exelentes doces
-                    </h3>
+                    <div class="h3">
+                        <h3>Nossos produtos</h3>
+                    </div>
+                    <select id="select">
+                        
+                    </select>
                 </div>
 
                 <div id="Aba3" class="tab-content" style="display: none;">
@@ -64,14 +75,15 @@
         </div>
     </div>
 
-    <div class="footer">
+    <footer>
         <h4>
-            &copy; Feito com  <div class="parenteses">(</div><div class="heart">❤</div><div class="parenteses">)</div> por Sarah e Ariany &reg;
+            &copy; Feito com <div class="ponto">.</div>
+            <div class="heart">❤</div>
+            <div class="ponto">.</div> por Sarah e Ariany &reg;
         </h4>
-    </div>
-
-    <script src="script.js"></script>
+    </footer>
 
 </body>
+<script src="script.js"></script>
 
 </html>
